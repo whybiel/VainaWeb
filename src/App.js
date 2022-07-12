@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components";
 import SectionNavegation from "./components/SectionNav/index"
 import SectionAbout from "./components/SectionAbout/index"
 import SectionFormation from "./components/SectionFormation/index"
-
+import SectionTeam from "./components/SectionTeam/index"
 import SectionEvents from "./components/SectionEvents/index"
 import Footer from "./components/Footer/index"
 
@@ -33,7 +33,7 @@ export default function App(){
       <SectionNavegation/>
       <SectionAbout/>
       <SectionFormation/>
-
+      <SectionTeam/>
       <SectionEvents/>
       <Footer/>
     </>

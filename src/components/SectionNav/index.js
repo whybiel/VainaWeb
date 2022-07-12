@@ -9,11 +9,11 @@ export default function App() {
             <S.Navbar>
                 <a href="https://www.vainaweb.com.br/" target="blank_"><S.ImgLogo src={logo} alt="logo vai na web" /></a>
                 <S.List>
-                    <S.Item>Sobre</S.Item>
-                    <S.Item>Formação</S.Item>
-                    <S.Item>Equipe</S.Item>
-                    <S.Item>Eventos</S.Item>
-                    <S.Item>Contatos</S.Item>
+                    <S.Item >Sobre</S.Item>
+                    <S.Item >Formação</S.Item>
+                    <S.Item >Equipe</S.Item>
+                    <S.Item >Eventos</S.Item>
+                    <S.Item >Contatos</S.Item>
                 </S.List>
             </S.Navbar>
             <S.SubContainer>
