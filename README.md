@@ -5,7 +5,7 @@ status > development
 - [x] Header
 - [x] Main
 - [x] Footer
-- [ ] Filter 
+- [x] Filter 
 
 ## Description
 Site feito para participação de processo seletivo, na empresa Vai na Web 
