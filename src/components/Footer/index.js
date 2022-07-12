@@ -9,7 +9,7 @@ import youtube from "./img/ytbicon.png"
 
 export default function App(){
     return(
-        <S.Container>
+        <S.Container id="contact">
             <S.Title>Contato</S.Title>
             <S.SubContainer>
                 <S.BoxText>

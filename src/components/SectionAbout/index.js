@@ -3,9 +3,9 @@ import * as S from "./style"
 
 import Vnw from "./img/vnw.png"
 
-export default function App() {
+export default function App({pass}) {
     return (
-        <S.Container>
+        <S.Container id="about">
             <S.BoxImg>
                 <S.ImgLogo src={Vnw} alt="logo vai na web" />
             </S.BoxImg>

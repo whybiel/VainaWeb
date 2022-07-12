@@ -38,12 +38,13 @@ export const List = styled.ul`
     align-items: center;
 `
 
-export const Item = styled.li`
+export const Link = styled.a`
     width: 25%;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     color:#fff;
     text-align: center;
+    text-decoration: none;
 
     cursor: pointer;
     
@@ -51,6 +52,11 @@ export const Item = styled.li`
         border:2px solid #D79434;
         border-radius: 15px;
     }
+
+`
+
+export const Item = styled.li`
+    
 `
 
 export const SubContainer = styled.div`

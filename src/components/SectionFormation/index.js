@@ -6,7 +6,7 @@ import iconpc from "./img/iconpc.png"
 
 export default function App() {
     return (
-        <S.Container>
+        <S.Container id="formation">
             <S.BoxText>
                 <S.Text>Formação</S.Text>
                 <S.SubBoxText>

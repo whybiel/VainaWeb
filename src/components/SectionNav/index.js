@@ -3,17 +3,17 @@ import * as S from "./style.js"
 
 import logo from "./img/logo.png"
 
-export default function App() {
+export default function App({pass}) {
     return (
         <S.Container>
             <S.Navbar>
-                <a href="https://www.vainaweb.com.br/" target="blank_"><S.ImgLogo src={logo} alt="logo vai na web" /></a>
+                <S.Link href="https://www.vainaweb.com.br/" target="blank_"><S.ImgLogo src={logo} alt="logo vai na web" /></S.Link>
                 <S.List>
-                    <S.Item >Sobre</S.Item>
-                    <S.Item >Formação</S.Item>
-                    <S.Item >Equipe</S.Item>
-                    <S.Item >Eventos</S.Item>
-                    <S.Item >Contatos</S.Item>
+                    <S.Link href="#about"><S.Item >Sobre</S.Item></S.Link>
+                    <S.Link href="#formation"><S.Item >Formação</S.Item></S.Link>
+                    <S.Link href="#team"><S.Item >Equipe</S.Item></S.Link>
+                    <S.Link href="#events"><S.Item >Eventos</S.Item></S.Link>
+                    <S.Link href="#contact"><S.Item >Contatos</S.Item></S.Link>
                 </S.List>
             </S.Navbar>
             <S.SubContainer>

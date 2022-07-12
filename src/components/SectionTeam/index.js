@@ -7,7 +7,7 @@ import Team from "./team"
 
 export default function App(){
     return(
-        <S.Container id="equipe">
+        <S.Container id="team">
             <S.BoxTeam>
                 <Team/>
             </S.BoxTeam>

@@ -5,7 +5,7 @@ import Team from "./img/imgTeam.png"
 
 export default function App(){
     return(
-        <S.Container>
+        <S.Container id="events">
             <S.Title>Eventos</S.Title>
             <S.SubContainer>
                 <S.ImgTeam src={Team} alt="foto do evento Tech girls"/>

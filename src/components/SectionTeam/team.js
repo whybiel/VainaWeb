@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import * as S from "./style"
 
 import dimitri from "./img/dimitri.jpg"
@@ -19,7 +19,7 @@ import priscila from "./img/priscila.jpg"
 
 
 export default function App() {
-    const [team , setTeam ] =useState([
+    const [team , setTeam ] = useState([
         {
             nome: "Dimitri Duque",
             office: "#voluntários",
